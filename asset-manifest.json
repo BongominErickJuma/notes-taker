@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/notes-taker/static/css/main.d8112379.css",
-    "main.js": "/notes-taker/static/js/main.e4d7e400.js",
+    "main.css": "/notes-taker/static/css/main.7d548646.css",
+    "main.js": "/notes-taker/static/js/main.dd0324e1.js",
     "index.html": "/notes-taker/index.html",
-    "main.d8112379.css.map": "/notes-taker/static/css/main.d8112379.css.map",
-    "main.e4d7e400.js.map": "/notes-taker/static/js/main.e4d7e400.js.map"
+    "main.7d548646.css.map": "/notes-taker/static/css/main.7d548646.css.map",
+    "main.dd0324e1.js.map": "/notes-taker/static/js/main.dd0324e1.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8112379.css",
-    "static/js/main.e4d7e400.js"
+    "static/css/main.7d548646.css",
+    "static/js/main.dd0324e1.js"
   ]
 }
