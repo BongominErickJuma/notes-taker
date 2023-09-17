@@ -173,14 +173,17 @@ function App() {
             <li key={note.id} className={`note-body ${note.deleted ? 'fade-out' : ''}`}
             data-id={note.id}>
               <h2 className="title">{note.title}</h2>
+              <div className="like">
               <i
-                className={`material-icons favorite ${
+                className={`material-icons ${
                   note.isFavorite ? "favorite" : "favorite_border"
                 }`}
                 onClick={() => toggleFavorite(note.id)}
               >
                 {note.isFavorite ? "favorite" : "favorite_border"}
               </i>
+              <code>{note.isFavorite ? "" : "like"}</code>
+              </div>
               <div className="note-text">{formatNoteText(note.text)}</div>
               <div className="control">
                 <code>{note.id}</code>

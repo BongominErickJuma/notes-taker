@@ -163,10 +163,11 @@ code {
   width: 6rem;
 }
 
-.favorite{
-  display: block;
-  width: fit-content;
+.like{
+  width: 3rem;
   margin: .25em auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 
@@ -201,7 +202,7 @@ code {
     height: 6rem;
   }
 
-  .favorite{
+  .liked{
     margin: .5em auto;
   }
 }
