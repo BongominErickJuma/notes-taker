@@ -24,7 +24,7 @@ function App() {
     if (body.trim() === "") return;
 
     const date = new Date();
-    const today = `${date.toDateString()} ${date.toLocaleTimeString([], {
+    const today = `${date.toDateString()} at ${date.toLocaleTimeString([], {
       hour12: true,
     })}`;
 
@@ -45,7 +45,7 @@ function App() {
     if (body.trim() === "") return;
     if (e.ctrlKey && e.key === "Enter") {
       const date = new Date();
-      const today = `${date.toDateString()} ${date.toLocaleTimeString([], {
+      const today = `${date.toDateString()} at  ${date.toLocaleTimeString([], {
         hour12: true,
       })}`;
       const newNote = {
